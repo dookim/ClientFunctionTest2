@@ -1,0 +1,6 @@
+/Users/duhyeongkim/AndroidStudioProjects/UrQaFunctionTest/app/build/intermediates/classes/debug
+/Users/duhyeongkim/AndroidStudioProjects/UrQaFunctionTest/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-d13eb002b93f5937384dc75f60d4a57dcecf4a69.jar
+/Users/duhyeongkim/AndroidStudioProjects/UrQaFunctionTest/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-52f6ba71d908828765cdfd259a57b782e539aae4.jar
+/Users/duhyeongkim/AndroidStudioProjects/UrQaFunctionTest/app/build/intermediates/pre-dexed/debug/classes-f704063c287f0ed6c72646334cca91dc4a1f2c3d.jar
+/Users/duhyeongkim/AndroidStudioProjects/UrQaFunctionTest/app/build/intermediates/pre-dexed/debug/classes-2541a07ee9cf6b287040e36756c14b5a09ef06f8.jar
+/Users/duhyeongkim/AndroidStudioProjects/UrQaFunctionTest/app/build/intermediates/pre-dexed/debug/bcprov-jdk15on-151-77769557f3ec8bc1d24b3ec8da2a7acdaebc5750.jar

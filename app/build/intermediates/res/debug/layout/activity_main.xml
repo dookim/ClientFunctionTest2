@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="io.urqa.activity.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/urlET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="url" />
+
+        <EditText
+            android:id="@+id/apikeyET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="apikey" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/sessionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="세션전송" />
+
+        <Button
+            android:id="@+id/exceptionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="에러전송" />
+
+        <Button
+            android:id="@+id/nativeExceptionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="네이티브전송" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/uncaughtExceptionBtn"
+            android:text="경로 지정" />
+
+        <Button
+            android:id="@+id/pathABtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/uncaughtExceptionBtn"
+            android:text="A" 
+            android:onClick="setOnClick"
+            />
+
+        <Button
+            android:id="@+id/pathBBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/pathABtn"
+            android:onClick="setOnClick"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/pathCBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+           	android:onClick="setOnClick"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="setOnClick"
+            android:text="Clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="5"
+        android:gravity="center" >
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/duhyeongkim/AndroidStudioProjects/UrQaFunctionTest/app/src/main/res/layout/activity_main.xml -->
